@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "ERT Session Handler",
+  "description": "Removes session idle time when working with GSSO.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["session.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.ert.com/*"
+  ]
+}
