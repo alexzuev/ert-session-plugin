@@ -5,8 +5,10 @@
   "description": "Removes session idle time when working with GSSO.",
   "version": "1.0",
 
-  "browser_action": {
-    "default_icon": "icon.png"
+  "icons": {
+    "128": "128.png",
+    "48": "48.png",
+    "16": "16.png"
   },
   "background": {
     "scripts": ["session.js"]
